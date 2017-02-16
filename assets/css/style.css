@@ -6,7 +6,7 @@ body {
 h1 {
 	color: #ffffff;
 	font-size: 80px;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: 'Pacifico', cursive;
 	text-shadow:
    -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -14,12 +14,13 @@ h1 {
      1px 1px 0 #000;
      margin: 0px;
      padding: 0px;
+     line-height: 90px;
 }
 
 h2 {
 	color: #ffffff;
 	font-size: 50px;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: 'Pacifico', cursive;
 	text-shadow:
    -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -27,6 +28,7 @@ h2 {
      1px 1px 0 #000;
      margin: 0px;
      padding: 0px;
+     line-height: 60px;
 }
 
 #menu {
@@ -41,7 +43,7 @@ h2 {
 	width: 500px;
 	color: black;
 	font-size: 20px;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	padding: 10px 10px 10px 10px;
 	border: 1px solid black;
 	line-height: 25px;
@@ -54,6 +56,10 @@ a {
 	text-decoration: none;
 }
 
+#bp {
+	color: black;
+}
+
 #me {
 	float: left;
 	width: 150px;
@@ -62,4 +68,26 @@ a {
 
 img {
 	width: 80px;
+}
+
+#credits {
+	float: left;
+	clear: both;
+	background-image: url("../images/asanoha.png");
+	color: #000000;
+	font-size: 10px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid black;
+	border-radius: 25px;
+	position: fixed;
+	top: 630px;
+}
+
+#bgi {
+	color: #000000;
+}
+
+#tbt {
+	color: #000000;
 }
